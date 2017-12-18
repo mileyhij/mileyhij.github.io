@@ -3,13 +3,13 @@ html, body{
   margin: 0px;
   padding: 0px;
   animation: color 10s infinite;
-  font-family: 'Playfair Display', serif;
 }
 .text1{
   text-align:center;
   top: 60px;
   text-transform:uppercase;
   font-size:90px;
+  font-family:'Playfair Display regular';
   color: #fff;
 }
 .text2{
@@ -17,6 +17,7 @@ html, body{
   top: 200px;
   text-transform:uppercase;
   font-size:60px;
+  font-family:'Playfair Display regular';
   color: #fff;
 }
 .text3{
@@ -25,6 +26,7 @@ html, body{
   padding: 0px;
   text-transform:uppercase;
   font-size:140px;
+  font-family:'Playfair Display regular';
   color: #fff;
 }
 .text4{
@@ -32,18 +34,35 @@ html, body{
   padding: 0px;
   text-transform:uppercase;
   font-size:110px;
+  font-family:'Playfair Display regular';
   color: #fff;
 }
 .text5{
   text-align:center;
   margin: 10px;
-  font-size:40px;
+  font-size:70px;
+  font-family:'Playfair Display regular';
   color: #fff;
 }
 .text6{
   text-align:center;
   padding: 0px;
+  font-size:28px;
+  font-family:'Playfair Display regular';
+  color: #fff;
+}
+.text7{
+  text-align:center;
+  padding: 0px;
+  font-size:45px;
+  font-family:'Playfair Display regular';
+  color: #fff;
+}
+.text8{
+  text-align:center;
+  padding: 0px;
   font-size:30px;
+  font-family:'Playfair Display regular';
   color: #fff;
 }
 .star{
@@ -53,6 +72,15 @@ html, body{
   font-size:60px;
   font-family:'Arial';
   color: #fff;
+}
+.snow1{
+  background: url(snow.png);
+  background-repeat: repeat;
+  width: 100%;
+  height 650px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 @keyframes color{
   0%{
